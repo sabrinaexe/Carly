@@ -1,0 +1,18 @@
+{
+  "name": "carly-monorepo",
+  "private": true,
+  "workspaces": [
+    "client",
+    "electron"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev --workspace=client",
+    "dev:electron": "npm run dev --workspace=electron",
+    "build:client": "npm run build --workspace=client"
+  },
+  "dependencies": {
+    "app-builder-bin": "^5.0.0-alpha.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
