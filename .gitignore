@@ -4,6 +4,7 @@ node_modules/
 .pnp
 .pnp.js
 
+
 # Build outputs & distribution
 dist/
 **/dist/
@@ -15,6 +16,7 @@ out/
 **/out/
 
 # Electron packaging & installers
+*.md
 *.dmg
 *.exe
 *.app
